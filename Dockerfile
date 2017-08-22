@@ -19,7 +19,7 @@ RUN DEBIAN_FRONTEND=noninteractive LC_ALL=en_US.UTF-8 \
 RUN curl -s "https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh" | bash
 
 RUN \
-  apt-get install -y nginx \
+  apt-get install -y nginx curl \
   php7.0 \
   php7.0-fpm \
   php7.0-cli \
