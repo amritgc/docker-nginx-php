@@ -30,6 +30,7 @@ RUN \
   php7.1-curl \
   php7.1-zip \
   php7.1-xml \
+  php7.1-pcntl \
   php7.1-sqlite3 && \
   echo "\ndaemon off;" >> /etc/nginx/nginx.conf
 
